@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgb(29, 28, 28), rgb(51, 45, 45));
+}
+
+.container{
+    background-color: rgba(224, 73, 73, 0.9);
+    height: 545px;
+    width: 1236px;
+    margin-top: 35px;
+    margin-left: 288px;
+    border-radius: 15px;
+}
+
+.tittle{
+        font-size: 15px;
+        margin-left: 750px;
+        margin-top: 43px;
+        font-family:'Anton', sans-serif;
+        font-family: 'Fjalla One', sans-serif;
+        font-family: 'Teko', sans-serif;
+        color: white;
+        margin-right: 30px;
+}
+
+.container-text{
+      margin-top: -450px;
+      margin-left: 450px;
+      margin-right: 200px;
+      font-size: 18px;
+      margin-right: 78px;
+      text-align: justify;    
+}
+
+.container-poster{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.img {
+    margin-top: 34px;
+}
+
+.text {
+    margin-top: -22px;
+}
