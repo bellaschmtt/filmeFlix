@@ -12,9 +12,9 @@
   .box-parent-login{
   position: absolute;
   width: 500px;
-  height:550px;
+  height:750px;
   left: 700px;
-  top: 200px;
+  top: 95px;
   background-color: rgba(80, 132, 211, 0.9);
   border: 1px solid #9c8e8e;
   box-sizing: border-box;
@@ -117,7 +117,7 @@
     <body>
       <div class="box-parent-login">
         <div class="well bg-white box-login">
-          <h1 class="titulo">Login</h1>
+          <h1 class="titulo">Cadastro</h1>
             <div class="poo">
               <h4>Email de Usuário</h4>
               <input type="" placeholder="Email">
@@ -128,9 +128,19 @@
                 <input type="password" placeholder="Senha">
             </div>
             <br><br>
-           
+            <div class="boxoi">
+                <h4>Número de Telefone</h4>
+                <input type="" placeholder="Telefone">
+            </div>
+            <div class="sexoo">
+              <p>Sexo:</p>
+              <input type="radio" id="feminino" name="genero" value="feminino" required>
+              <label for="feminino">Feminino</label>
+              <input type="radio" id="masculino" name="genero" value="masculino" required>
+              <label for="masculino">masculino</label>
+            </div>
             <div>
-                <input class="oi" type="submit" name="Entar" id="submit">
+                <input class="oi" type="submit" name="submit" id="submit">
             </div>
             <div class="cadast">
               <p class="txt-center ls-login-signup">
@@ -138,15 +148,14 @@
               </p>
             </div>
             <div class="cadastt">
-              <a href="cadastrar.html">Cadastre-se</a>
+              <a href="login.html">Fazer Login</a>
             </div>
-           
+            
           </form>
         </div>
       </div>
-        <div class="voltefilmes">
-           <a class="show" href="index .html">Voltar aos Filmes</a>
-        </div>
-    
-    </body>
+      <div class="voltefilmes">
+        <a class="show" href="index .html">Voltar aos Filmes</a>
+     </div>
+     </body>
 </html>
